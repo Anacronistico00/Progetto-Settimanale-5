@@ -29,13 +29,14 @@ main {
 }
 .navbar .navbar-nav {
   justify-content: space-between;
-  width: 30%;
+  width: 400px;
 }
 .navbar .navbar-nav .nav-item {
   margin: 5px 0;
 }
 .navbar .navbar-nav .nav-item .dropdown-text {
   color: grey !important;
+  text-align: center;
   text-decoration: none;
 }
 .navbar .navbar-nav .nav-item .dropdown-text:hover {
@@ -97,6 +98,11 @@ main .buttons .btn:hover {
   background-color: grey;
 }
 
+.main-expanded {
+  margin-top: 400px;
+  transition: margin-top 0.3s ease;
+}
+
 main {
   transition: margin-top 0.3s ease;
 }
@@ -148,8 +154,13 @@ main input::placeholder {
   padding: 5px 0;
 }
 
-.carousel-item .col-md-2 {
-  padding: 0 0.5%;
+@media (min-width: 992px) {
+  main {
+    margin-top: 0;
+  }
+  .main-expanded {
+    margin-top: 0;
+  }
 }
 .carousel-item img {
   filter: brightness(0.5);

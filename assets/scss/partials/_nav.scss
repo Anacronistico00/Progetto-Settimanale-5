@@ -3,11 +3,13 @@
   min-height: 60px;
   .navbar-nav {
     justify-content: space-between;
-    width: 30%;
+    width: 400px;
+
     .nav-item {
       margin: 5px 0;
       .dropdown-text {
         color: grey !important;
+        text-align: center;
         text-decoration: none;
         &:hover {
           color: white !important;
