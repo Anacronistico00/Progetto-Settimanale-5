@@ -128,6 +128,27 @@ main input::placeholder {
   color: white !important;
 }
 
+.checkbox {
+  transform: scale(2);
+  border: 1px solid #ffffff;
+  outline: 1px solid #ffffff;
+  border-radius: 0;
+  width: 10px;
+  height: 10px;
+}
+.checkbox:checked {
+  outline: 1px solid #ffffff;
+  accent-color: #000000;
+}
+
+.paypal img {
+  width: 70px;
+}
+
+.settings a {
+  padding: 5px 0;
+}
+
 @media (min-width: 992px) {
   main {
     margin-top: 0;

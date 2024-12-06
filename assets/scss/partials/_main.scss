@@ -43,6 +43,31 @@ main {
   }
 }
 
+.checkbox {
+  transform: scale(2);
+  border: 1px solid $MainText;
+  outline: 1px solid $MainText;
+  border-radius: 0;
+  width: 10px;
+  height: 10px;
+  &:checked {
+    outline: 1px solid $MainText;
+    accent-color: $bgColor;
+  }
+}
+
+.paypal {
+  img {
+    width: 70px;
+  }
+}
+
+.settings {
+  a {
+    padding: 5px 0;
+  }
+}
+
 @media (min-width: 992px) {
   main {
     margin-top: 0;
