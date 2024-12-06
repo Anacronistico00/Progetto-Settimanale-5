@@ -112,6 +112,9 @@ main {
 main input {
   background-color: lightgrey;
 }
+main input:focus {
+  background-color: #ffffff !important;
+}
 main input::placeholder {
   color: black !important;
 }
@@ -119,8 +122,13 @@ main input::placeholder {
 .p2Img {
   width: 50%;
 }
-.p2Img img {
+.p2Img img,
+.p2Img .myProfile img {
   width: 100px;
+}
+
+.myProfile img {
+  width: 70px;
 }
 
 .p2Btn:hover {

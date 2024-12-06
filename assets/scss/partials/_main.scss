@@ -23,6 +23,9 @@ main {
   transition: margin-top 0.3s ease;
   input {
     background-color: lightgrey;
+    &:focus {
+      background-color: $MainText !important;
+    }
     &::placeholder {
       color: black !important;
     }
@@ -31,9 +34,13 @@ main {
 
 .p2Img {
   width: 50%;
-  img {
+  img,
+  .myProfile img {
     width: 100px;
   }
+}
+.myProfile img {
+  width: 70px;
 }
 
 .p2Btn {
