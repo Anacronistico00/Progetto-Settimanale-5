@@ -1,0 +1,30 @@
+{
+  "name": "progetto-settimanale-5",
+  "version": "1.0.0",
+  "description": "Netflix clone by EPICODE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anacronistico00/Progetto-Settimanale-5.git"
+  },
+  "keywords": [
+    "Netflix",
+    "Epicode",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "SASS"
+  ],
+  "author": "Anacronistico00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anacronistico00/Progetto-Settimanale-5/issues"
+  },
+  "homepage": "https://github.com/Anacronistico00/Progetto-Settimanale-5#readme",
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}

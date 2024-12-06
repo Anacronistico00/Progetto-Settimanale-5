@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  z-index: 1;
+}
+
+main {
+  z-index: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.navbar {
+  height: 60px;
+  min-height: 60px;
+}
+.navbar .navbar-nav {
+  justify-content: space-between;
+  width: 30%;
+}
+.navbar .navbar-nav .nav-item {
+  margin: 5px 0;
+}
+.navbar .navbar-nav .nav-item .dropdown-text {
+  color: grey !important;
+  text-decoration: none;
+}
+.navbar .navbar-nav .nav-item .dropdown-text:hover {
+  color: white !important;
+}
+.navbar .navbar-brand {
+  width: 150px !important;
+}
+.navbar .navbar-brand img {
+  width: 100%;
+}
+
+.navbar-items .dropdown {
+  justify-content: space-between;
+}
+.navbar-items .dropdown i,
+.navbar-items .dropdown a {
+  margin: 5px;
+}
+.navbar-items .dropdown i {
+  font-size: 24px;
+  border-radius: 50px;
+}
+.navbar-items .dropdown i:hover {
+  background-color: grey;
+}
+
+.dropdown img {
+  width: 40px;
+}
+
+.dropdown-toggle::after {
+  color: #ffffff;
+}
+
+.dropdown-menu {
+  background-color: #000000;
+  color: #ffffff !important;
+}
+.dropdown-menu .yourInfo {
+  margin-left: 10px;
+}
+.dropdown-menu .yourInfo h4,
+.dropdown-menu .yourInfo p {
+  font-size: 1em;
+}
+.dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+
+.navbar-collapse {
+  background-color: #000000;
+}
+
+main .buttons .btn {
+  border: 1px solid lightgray !important;
+}
+main .buttons .btn:hover {
+  background-color: grey;
+}
+
+.main-expanded {
+  margin-top: 380px;
+  transition: margin-top 0.3s ease;
+}
+
+.second-expanded {
+  margin-top: 660px;
+  transition: margin-top 0.3s ease;
+}
+
+main {
+  transition: margin-top 0.3s ease;
+}
+main input {
+  background-color: lightgrey;
+}
+main input::placeholder {
+  color: black !important;
+}
+
+.p2Img {
+  width: 50%;
+}
+.p2Img img {
+  width: 100px;
+}
+
+.p2Btn:hover {
+  background-color: grey;
+  color: white !important;
+}
+
+@media (min-width: 992px) {
+  main {
+    margin-top: 0;
+  }
+  .main-expanded {
+    margin-top: 0;
+  }
+  .second-expanded {
+    margin-top: 0;
+  }
+}
+.carousel-item .col-md-2 {
+  padding: 0 0.5%;
+}
+.carousel-item img {
+  filter: brightness(0.5);
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+.carousel-item img:hover {
+  filter: brightness(1);
+  transform: scale(1.1);
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  margin: 10px;
+}
+footer ul li p:hover,
+footer ul li i:hover,
+footer ul li .btn:hover {
+  color: white !important;
+}
+
+/*# sourceMappingURL=style.css.map */

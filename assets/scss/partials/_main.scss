@@ -1,0 +1,56 @@
+main {
+  .buttons {
+    .btn {
+      border: 1px solid lightgray !important;
+      &:hover {
+        background-color: grey;
+      }
+    }
+  }
+}
+
+.main-expanded {
+  margin-top: 380px;
+  transition: margin-top 0.3s ease;
+}
+
+.second-expanded {
+  margin-top: 660px;
+  transition: margin-top 0.3s ease;
+}
+
+main {
+  transition: margin-top 0.3s ease;
+  input {
+    background-color: lightgrey;
+    &::placeholder {
+      color: black !important;
+    }
+  }
+}
+
+.p2Img {
+  width: 50%;
+  img {
+    width: 100px;
+  }
+}
+
+.p2Btn {
+  &:hover {
+    background-color: grey;
+    color: white !important;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    margin-top: 0;
+  }
+  .main-expanded {
+    margin-top: 0;
+  }
+  .second-expanded {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bgColor;
+  color: $MainText;
+}
+
+header {
+  z-index: 1;
+}
+
+main {
+  z-index: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
