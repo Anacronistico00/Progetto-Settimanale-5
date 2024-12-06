@@ -10,11 +10,12 @@ body {
   color: #ffffff;
 }
 
-header {
+nav {
   z-index: 1;
 }
 
 main {
+  position: relative;
   z-index: 0;
 }
 
@@ -96,16 +97,6 @@ main .buttons .btn:hover {
   background-color: grey;
 }
 
-.main-expanded {
-  margin-top: 380px;
-  transition: margin-top 0.3s ease;
-}
-
-.second-expanded {
-  margin-top: 660px;
-  transition: margin-top 0.3s ease;
-}
-
 main {
   transition: margin-top 0.3s ease;
 }
@@ -150,24 +141,13 @@ main input::placeholder {
 }
 
 .paypal img {
-  width: 70px;
+  width: 100px;
 }
 
 .settings a {
   padding: 5px 0;
 }
 
-@media (min-width: 992px) {
-  main {
-    margin-top: 0;
-  }
-  .main-expanded {
-    margin-top: 0;
-  }
-  .second-expanded {
-    margin-top: 0;
-  }
-}
 .carousel-item .col-md-2 {
   padding: 0 0.5%;
 }
@@ -177,7 +157,7 @@ main input::placeholder {
 }
 .carousel-item img:hover {
   filter: brightness(1);
-  transform: scale(1.1);
+  transform: scale(1.04);
   transition: filter 0.5s ease, transform 0.5s ease;
 }
 

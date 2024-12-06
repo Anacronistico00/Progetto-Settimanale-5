@@ -10,11 +10,12 @@ body {
   color: $MainText;
 }
 
-header {
+nav {
   z-index: 1;
 }
 
 main {
+  position: relative;
   z-index: 0;
 }
 

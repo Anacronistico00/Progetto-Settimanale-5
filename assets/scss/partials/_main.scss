@@ -9,15 +9,15 @@ main {
   }
 }
 
-.main-expanded {
-  margin-top: 380px;
-  transition: margin-top 0.3s ease;
-}
+// .main-expanded {
+//   margin-top: 380px;
+//   transition: margin-top 0.3s ease;
+// }
 
-.second-expanded {
-  margin-top: 660px;
-  transition: margin-top 0.3s ease;
-}
+// .second-expanded {
+//   margin-top: 660px;
+//   transition: margin-top 0.3s ease;
+// }
 
 main {
   transition: margin-top 0.3s ease;
@@ -65,7 +65,7 @@ main {
 
 .paypal {
   img {
-    width: 70px;
+    width: 100px;
   }
 }
 
@@ -75,14 +75,14 @@ main {
   }
 }
 
-@media (min-width: 992px) {
-  main {
-    margin-top: 0;
-  }
-  .main-expanded {
-    margin-top: 0;
-  }
-  .second-expanded {
-    margin-top: 0;
-  }
-}
+// @media (min-width: 992px) {
+//   main {
+//     margin-top: 0;
+//   }
+//   .main-expanded {
+//     margin-top: 0;
+//   }
+//   .second-expanded {
+//     margin-top: 0;
+//   }
+// }
